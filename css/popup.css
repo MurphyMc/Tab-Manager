@@ -99,6 +99,9 @@ body{
 .close{
 	background-image:url(../images/close.png);
 }
+.selectall{
+	background-image:url(../images/selectall.png);
+}
 .new{
 	background-image:url(../images/new.png);
 }
