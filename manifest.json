@@ -4,11 +4,15 @@
   	"manifest_version": 2,
   	"description": "Quickly and conveniently manage your open tabs",
 	"icons":{"128":"images/icon.png","48":"images/icon48.png"},
-  	"permissions": ["tabs"],
+   	"permissions": ["tabs", "bookmarks"],
   	"browser_action":{
   		"default_icon":"images/browser_action.png",
   		"default_popup":"popup.html"
   	},
+    "background":{
+      "scripts": ["lib/background.js"],
+      "persistent": false
+    },
     "commands": {
         "_execute_browser_action": {
             "suggested_key": {
