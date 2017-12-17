@@ -1,8 +1,7 @@
 # Tab Manager
-This is a Google Chrome extension which allows you to easily and quickly manage and access your tabs/windows ;)
-Have fun with it!
+This is a Google Chrome extension which allows you to easily and quickly manage and access your tabs/windows.
 
-You can find and install this extension at the [Chrome Web Store](https://chrome.google.com/webstore/detail/eobcjlgohobbfcgabmijkdgpjkknpbbo).
+It was based on [this version on github](https://github.com/joshperry/Tab-Manager).
 
 ### license
 MPLv2
